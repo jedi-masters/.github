@@ -32,8 +32,7 @@ staleLabel: stale
 #   for your contributions.
 
 # Comment to post when removing the stale label.
-# unmarkComment: >
-#   Your comment here.
+unmarkComment: false
 
 # Comment to post when closing a stale Issue or Pull Request.
 # closeComment: >
@@ -64,3 +63,5 @@ issues:
     If the issue persists, and you'd like to remove the stale label, you simply need to leave a comment. Your comment can be as simple as "still important to me".
 
     Lastly, you can always ask for help at [our Discourse Forum](https://discuss.bitrise.io/).
+  closeComment: >
+    I'll close this issue, but if you need more info/help just let us know by opening a new one!
