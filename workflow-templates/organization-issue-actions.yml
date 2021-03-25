@@ -10,6 +10,7 @@ jobs:
     steps:
       - uses: actions/stale@v3
         with:
+          repo-token: ${{ github.token }}
           days-before-issue-stale: 90
           days-before-issue-close: 21
           stale-issue-message: >
